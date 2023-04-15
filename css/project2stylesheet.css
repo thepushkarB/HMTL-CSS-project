@@ -338,7 +338,8 @@ footer {
 
 .footer-container {
    align-items: flex-start; 
-   justify-content : space-between;
+/*    justify-content : space-between; */
+    justify-content : space-evenly;
 }
 
 /** subfooter secton */
