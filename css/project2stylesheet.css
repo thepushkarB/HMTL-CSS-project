@@ -113,7 +113,7 @@ ul {
 
 /** top banner */
 .top_banner {
-    background-image : url('/images/assets/asset\ 30.png');
+    background-image : url('./Images/assets/asset\ 30.png');
     background : #4fb3d4;
     opacity: 1;
     background-size : 300px;
@@ -198,7 +198,7 @@ header {
 .features_section {
     padding : 80px var(--padding-inline-section) 0;
     /** padding : top right bottom; */
-    background : url(/images/assets/asset\ 34.svg);
+    background : url(./Images/assets/asset\ 34.svg);
     background-repeat: no-repeat;
     background-position : center;
 } 
@@ -278,7 +278,7 @@ OR
     position : relative;
     min-height : 300px;
     background : black;
-    background : linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/images/assets/asset\ 37.jpeg);
+    background : linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./Images/assets/asset\ 37.jpeg);
     background-size : cover;
     transition : 0.2s ease-out;
     border-radius : 9px;
@@ -293,12 +293,12 @@ OR
 }
 
 .examples-card:nth-child(3){
-    background : linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/images/assets/asset\ 38.jpeg);
+    background : linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./Images/assets/asset\ 38.jpeg);
     background-size : cover;
 }
 
 .examples-card:nth-child(4) {
-    background : linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/images/assets/asset\ 39.jpeg);
+    background : linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./Images/assets/asset\ 39.jpeg);
     background-size : cover;
 }
 
