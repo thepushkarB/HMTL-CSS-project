@@ -1,0 +1,284 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <base href="./chatGPT">
+
+    <!-- * adding icon to title -->
+    <link rel="icon" href="https://img.icons8.com/ios-glyphs/30/000000/chatgpt.png">
+    <title>
+        Student Success Toolkit
+    </title>
+
+    <link rel="stylesheet" href="./chatgptStylesheet.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <div class="papa">
+        <!-- * SIDEBAR -->
+        <div class="sidebar_w">
+    
+            <!-- * sidebar top -->
+            <div class="side_bar border">
+        
+                <!-- * Panel 1 -->
+                <div class="panel1">
+                    <!-- * new chat -->
+                    <div class="newchat">
+                        <i class="fa-regular fa-plus"></i>
+                        <p>New chat</p>
+                    </div>
+                    <!-- * hide sidebar -->
+                    <div class="hide_sidebar">
+                        <svg class="iconside" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sidebar"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                        </svg>
+                    </div>
+                </div>
+        
+                <!-- * panel 2 -->
+                <div class="panel2">
+                    <div class="first_chat sidebar_chat_select">
+                        <!-- * chat icon -->
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </svg>
+                        <!-- * chat name -->
+                        <p>THE START</p>
+                        <!-- * edit icon -->
+                        <svg class="icon_edit" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                        </svg>
+                        <!-- * share icon -->
+                        <svg class="icon_edit" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                        </svg>
+                        <!-- * delete icon -->
+                        <svg class="icon_edit" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- * sidebar bottom -->
+            <!-- * panel 3 -->
+            <div class="panel3">
+                <hr>
+                <!-- <div class="panel3_container border"> -->
+                    <!-- * upgarde to plus -->
+                    <div class="upgrade sidebar_chat_select">
+                        <svg class="icon_user" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        </svg>
+                        <p>Upgrade to Plus</p>
+                    </div>
+            
+                    <!-- * account -->
+                    <div class="account sidebar_chat_select">
+                        <!-- <svg class="icon_account border" viewBox="0 0 24 24">
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 11C3 7.22876 3 5.34315 4.17157 4.17157C5.34315 3 7.22876 3 11 3H13C16.7712 3 18.6569 3 19.8284 4.17157C21 5.34315 21 7.22876 21 11V13C21 16.7712 21 18.6569 19.8284 19.8284C18.6569 21 16.7712 21 13 21H11C7.22876 21 5.34315 21 4.17157 19.8284C3 18.6569 3 16.7712 3 13V11Z" fill="#2A4157" fill-opacity="0.24"/><circle cx="12" cy="10" r="4" fill="#222222"/><path fill-rule="evenodd" clip-rule="evenodd" d="M18.9463 20.2532C18.9616 20.3587 18.9048 20.4613 18.8063 20.5021C17.6048 21 15.8353 21 13 21H11C8.16476 21 6.3953 21 5.19377 20.5022C5.0953 20.4614 5.03846 20.3587 5.05373 20.2532C5.48265 17.2919 8.42909 15 12 15C15.571 15 18.5174 17.2919 18.9463 20.2532Z" fill="#222222"/></svg>
+                        </svg> -->
+                        <div class="icons8-mail-account"></div>
+                        <p>sam@openai.com</p>
+                        <svg class="icon_more" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                        </svg>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    
+    
+        <!-- * Content Area -->
+        <div class="main_content_container border">
+            <div class="content_area">
+                <!-- * heading -->
+                <div class="heading border">
+                    <h1>ChatGPT</h1>
+                </div>
+    
+                <!-- * below heading content -->
+                <div class="below_head_content border">
+    
+                    <!-- * examples column -->
+                    <div class="examples">
+    
+                        <!-- * row 1 -->
+                        <div class="row1">
+                            <div class="icon_div">
+                                <svg class="icon_1" viewBox="0 0 24 24">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                                </svg>
+                            </div>
+                            <div class="icon_text">
+                                <p>Examples</p>
+                            </div>
+                        </div>
+    
+                        <!-- * row 2 container-->
+                        <div class="row2_container">
+                            <!-- * row 2 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        "Explain quantum computing in simple terms"
+                                        <svg class="icon_a" id="baka" viewBox="0 0 24 24">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <!-- * row 3 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        "Got any creative ideas for a 10 year old’s birthday?"
+                                        <svg class="icon_a" id="baka" viewBox="0 0 24 24">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <!-- * row 4 -->
+                            <div class="row2">
+                                <div class="text_div">
+                                    <p>
+                                        "How do I make an HTTP request in Javascript?"
+                                        <svg class="icon_a" id="baka" viewBox="0 0 24 24">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                        </svg>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <!-- * capabilities column -->
+                    <div class="capabilities">
+    
+                        <!-- * row 1 -->
+                        <div class="row1">
+                            <div class="icon_div">
+                                <svg class="icon_1" viewBox="0 0 24 24">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                                </svg>
+                            </div>
+                            <div class="icon_text">
+                                <p>Capabilities</p>
+                            </div>
+                        </div>
+    
+                        <!-- * row 2 container-->
+                        <div class="row2_container">
+                            <!-- * row 2 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        Remembers what user said earlier in the conversation
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- * row 3 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        Allows user to provide follow-up corrections
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- * row 4 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        Trained to decline inappropriate requests
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <!-- * limitations column -->
+                    <div class="limitations">
+    
+                        <!-- * row 1 -->
+                        <div class="row1">
+                            <div class="icon_div">
+                                <svg class="icon_1" viewBox="0 0 24 24">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                                </svg>
+                            </div>
+                            <div class="icon_text">
+                                <p>Limitations</p>
+                            </div>
+                        </div>
+    
+                        <!-- * row 2 container-->
+                        <div class="row2_container">
+                            <!-- * row 2 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        May occasionally generate incorrect information
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- * row 3 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        May occasionally produce harmful instructions or biased content
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- * row 4 -->
+                            <div class="row2 ">
+                                <div class="text_div">
+                                    <p>
+                                        Limited knowledge of world and events after 2021
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <!-- * searchbar -->
+                <div class="searchbar_container border">
+                    <div class="searchbar ">
+                        <form id="form" class="">
+                            <input type="search" class="search border" placeholder="Send a message">
+                            <button class="search_button border">
+                                <svg class="icon_send" viewBox="0 0 24 24">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <!-- * bottom text
+                    <div class="bottomtext_container">
+        
+                    </div> -->
+                </div>
+    
+    
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
